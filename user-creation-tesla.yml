@@ -1,0 +1,8 @@
+---
+- name: creating a user
+  hosts: all
+  tasks:
+    - name: creating a  user tesla
+      user:
+        name: tesla
+        state: present
