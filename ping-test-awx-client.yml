@@ -1,0 +1,6 @@
+---
+- name: Testing ping command
+  hosts: all
+  tasks:
+    - name: Please ping awx-clinet ip 
+      ping:
